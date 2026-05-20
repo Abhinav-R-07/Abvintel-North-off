@@ -120,10 +120,8 @@ export const WORK_ENGAGEMENTS = [
     status: "Active",
     details: [
       "Campus E1 e-bike platform",
-      "Brand naming research (verified clean name)",
       "Mobile app architecture scoping",
       "Marketing strategy & positioning",
-      "Komaki partnership proposal",
       "Service agreement framework",
     ],
   },
@@ -160,7 +158,7 @@ export const CARBONOCURA = {
     applicationNumber: "US 2025/0098765",
     filingDate: "August 6, 2025",
     inventor: "Abhinav K.R, AbvIntel North",
-    jurisdiction: "United States Patent and Trademark Office",
+    jurisdiction: "INDIAN Patent and Trademark Office",
   },
   technical: {
     heading: "How It Works",
