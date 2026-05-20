@@ -241,6 +241,12 @@ export const ABOUT = {
   },
   team: [
     {
+      name: "Sumanyu Tripathy",
+      title: "CTO & Co-Founder",
+      bio: "Architect of deep-tech infrastructure and systems design. Specializes in distributed systems, IoT, and climate tech solutions. Drives technical vision and engineering excellence.",
+      image: "/sumanyu.jpg",
+    },
+    {
       name: "Sadhvika Kannan",
       title: "COO & Design Lead",
       bio: "Drives operational excellence and design strategy. Brings disciplined thinking to execution, crafting experiences that align with precision and intention.",
