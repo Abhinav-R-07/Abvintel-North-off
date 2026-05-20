@@ -231,9 +231,13 @@ export default function Home() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 md:gap-16 items-center">
-              {/* Avatar Placeholder */}
-              <div className="w-64 h-64 md:w-80 md:h-80 border border-border bg-surface flex items-center justify-center">
-                <span className="text-muted text-sm">Avatar Placeholder</span>
+              {/* Avatar */}
+              <div className="w-64 h-64 md:w-80 md:h-80 border border-border bg-surface overflow-hidden">
+                <img
+                  src="/founder.jpg"
+                  alt="Abhinav K.R"
+                  className="w-full h-full object-cover"
+                />
               </div>
 
               {/* Bio */}
@@ -274,10 +278,10 @@ export default function Home() {
             <RevealOnScroll>
               <h3 className="font-display text-lg font-bold mb-4">Direct Email</h3>
               <a
-                href={`mailto:hello@abvintel.north`}
+                href={`mailto:contact@abvintelnorth.com`}
                 className="text-gold hover:text-white transition-colors font-medium mb-6 block"
               >
-                hello@abvintel.north
+                contact@abvintelnorth.com
               </a>
               <p className="text-muted text-sm">We respond within 48 hours.</p>
             </RevealOnScroll>
