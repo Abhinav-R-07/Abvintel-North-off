@@ -241,6 +241,14 @@ export const ABOUT = {
       { year: 2026, month: "Mar", event: "Carbonocura patent granted" },
     ],
   },
+  team: [
+    {
+      name: "Sadhvika Kannan",
+      title: "COO & Design Lead",
+      bio: "Drives operational excellence and design strategy. Brings disciplined thinking to execution, crafting experiences that align with precision and intention.",
+      image: "/sadhvika.jpg",
+    },
+  ],
   legal: {
     trademark: "AbvIntel North wordmark (abvintel|NORTH) is a trademark of AbvIntel North Inc.",
     patent: "Patent No. 583393 (Carbonocura) granted to Abhinav K.R, assigned to AbvIntel North Inc.",
