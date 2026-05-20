@@ -57,6 +57,50 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Team Section */}
+      <section className="py-20 md:py-32 px-4 md:px-8 border-b border-border">
+        <div className="mx-auto w-full max-w-6xl">
+          <RevealOnScroll>
+            <SectionLabel text="Leadership" />
+
+            <h2 className="font-display text-3xl md:text-4xl font-bold mb-12">
+              The Team
+            </h2>
+
+            <div className="space-y-16">
+              {ABOUT.team.map((member, idx) => (
+                <div key={idx} className="grid md:grid-cols-3 gap-12 md:gap-16">
+                  {/* Avatar */}
+                  <div className="w-full md:col-span-1">
+                    <div className="aspect-square border border-border bg-surface overflow-hidden">
+                      <img
+                        src={member.image}
+                        alt={member.name}
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
+
+                  {/* Bio */}
+                  <div className="md:col-span-2">
+                    <h3 className="font-display text-3xl md:text-4xl font-bold mb-2">
+                      {member.name}
+                    </h3>
+                    <p className="text-lg md:text-xl text-gold font-medium mb-8">
+                      {member.title}
+                    </p>
+
+                    <p className="text-base md:text-lg text-white/80 leading-relaxed">
+                      {member.bio}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </RevealOnScroll>
+        </div>
+      </section>
+
       {/* Company Story */}
       <section className="py-20 md:py-32 px-4 md:px-8 border-b border-border">
         <div className="mx-auto w-full max-w-6xl">
